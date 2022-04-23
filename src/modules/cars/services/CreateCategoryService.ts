@@ -10,7 +10,7 @@ interface IRequest {
  * Define return type - [X]
  * Change return error - [X]
  * Access repository - [X]
- * Return a value - [X]
+ * Return a valuekk - [X]
  */
 
 class CreateCategoryService {
