@@ -93,7 +93,9 @@
                     }
                 },
                 "responses": {
-                    "201": "Description created"
+                    "201": {
+                        "description": "Created"
+                    }
                 }
             }
         },
