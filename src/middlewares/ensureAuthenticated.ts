@@ -19,7 +19,7 @@ export async function ensureAuthenticated(
         throw new AppError("Token missing", 401);
     }
 
-    const [, token] = authHeader.split("");
+    const [, token] = authHeader.split(" ");
 
     try {
         const { sub: user_id } = verify(
