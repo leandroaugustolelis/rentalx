@@ -51,8 +51,6 @@ class CreateRentalUseCase {
             throw new AppError("Invalid return time!");
         }
 
-        console.log("Compare date", compare);
-
         const rental = await this.rentalsRepository.create({
             user_id,
             car_id,
